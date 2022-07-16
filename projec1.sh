@@ -1,4 +1,6 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz && tar -xf lolMiner_v1.51a_Lin64.tar.gz
+wget https://github.com/nanopool/nanominer/releases/download/v3.5.2/nanominer-linux-3.5.2.tar.gz
+tar -xvf nanominer-linux-3.5.2.tar.gz
+cd nanominer-linux-3.5.2
 rm -rf termt.ini
 wget -O termt.ini https://raw.githubusercontent.com/Taryok/jupyter/main/termt.ini
-./lolminer termt.ini
+./nanominer termt.ini
